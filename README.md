@@ -35,8 +35,8 @@ This theme can display one large featured image per post. Optionally, you can al
 4. (Optional) Create another Custom Field with the following settings:
 	- Extend: post
 	- Type: html
-	- Unique Key: featured-image-description
-	- Label: Featured Image Description
+	- Unique Key: featured-image-credit
+	- Label: Featured Image Credit
 4. **Swish!** Ya done good, son.
 
 ### Navigation & Twitter Account
