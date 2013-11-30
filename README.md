@@ -53,8 +53,8 @@ You can control which pages (not posts) are visible in the main menu, and also s
 	- Name: twitter_account
 	- Value: YourTwitterUsername
 5. Create a new variable to provide your Twitter URL. **Extend > Site Variables** in Anchor's admin
-		- Name: twitter_url
-		- Value: http://twitter.com/YourTwitterUsername
+	- Name: twitter_url
+	- Value: http://twitter.com/YourTwitterUsername
 6. **That's it!** Finished.
 
   
