@@ -7,7 +7,7 @@ Test drive it... [here](http://dev.daveis.net/manifesto)
 #### Features
 - Responsive design built on a modified version of Skeleton (http://getskeleton.com) to have a percentage based grid system
 - jPanelMenu drawer navigation
-- Options to display/hide Anchor `pages` in the main navigation
+- Options to display/hide Anchor `Pages` in the main navigation
 - Nice featured images for each post (requires additional setup)
 - Supports post descriptions to display on `Posts` page and in article header as a teaser
 - "Tweet This" button on posts
