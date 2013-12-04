@@ -5,7 +5,13 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title><?php echo page_title('Page not found'); ?> - <?php echo site_name(); ?></title>
 
-    <meta name="description" content="<?php echo site_description(); ?>">
+		<?php if(is_article()): ?>
+			<meta name="description" content="<?php echo article_description(); ?>">
+		<?php elseif(is_homepage()): ?>
+			<meta name="description" content="<?php echo site_description(); ?>">
+		<?php elseif(is_page()): ?>
+			<meta name="description" content="<?php echo site_description(); ?>">
+		<?php endif; ?>
 
 		<link rel="stylesheet" href="<?php echo theme_url('/css/base.css'); ?>">
 		<link rel="stylesheet" href="<?php echo theme_url('/css/skeleton-fluid.css'); ?>">
@@ -40,7 +46,7 @@
     <?php endif; ?>
   </head>
   
-  <body class="<?php echo body_class(); ?> id-<?php echo article_id(); ?>">
+	<body class="<?php echo body_class(); ?> id-<?php echo article_id(); ?>">
 		<noscript>
 			<div class="javascript-warning">
 				Yo dawg! Aspects of this website may not work correctly with javascript disabled.<br><strong>Please enable Javascript in your browser settings.</strong>
