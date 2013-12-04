@@ -37,7 +37,7 @@
 			<div class="container">
 				<h1><?php echo article_title(); ?></h1>
 				
-				<div class="article-meta" style="border-bottom: 1px solid #ccc;">
+				<div class="article-meta">
 					<time class="article-meta__time" datetime="<?php echo date(DATE_W3C, article_time()); ?>"> <i class="fa fa-calendar"></i><?php echo relative_time(article_time()); ?></time>
 					<!-- Maybe use this later?
 					<span class="article-meta__author"><i class="fa fa-user"></i> by <?php echo article_author('real_name'); ?></span>

@@ -1,4 +1,4 @@
-	<footer class="global-site-footer clearfix">
+	<footer class="site-footer clearfix">
 		<div class="container">
 			<p class="site-copyright">&copy; <?php echo date("Y"); ?> <?php echo site_name(); ?></p>
 			<p class="site-credits">Built with <a href="http://anchorcms.com">Anchor CMS</a>, <a href="http://getskeleton.com">Skeleton</a>, &amp; <a href="http://jpanelmenu.com">JPanelMenu</a>.</p>
@@ -7,7 +7,7 @@
 
   <!-- jQuery freshly squeezed -->
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-  <!-- If they're out, grab some juice locally -->
+  <!-- If they're out, grab some locally -->
   <script>window.jQuery || document.write('<script src="<?php echo theme_url('/js/jquery.js'); ?>"><\/script>')</script>
 
   <!-- Custom JS -->

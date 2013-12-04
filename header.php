@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title><?php echo page_title('Page can’t be found'); ?> - <?php echo site_name(); ?></title>
+    <title><?php echo page_title('Page not found'); ?> - <?php echo site_name(); ?></title>
 
     <meta name="description" content="<?php echo site_description(); ?>">
 
