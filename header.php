@@ -36,7 +36,14 @@
     <meta property="og:url" content="<?php echo current_url(); ?>">
     <meta property="og:image" content="<?php echo article_custom_field('featured-image', 'http://s13.postimg.org/w3p4tc5pz/article_img_default.jpg'); ?>">
     <meta property="og:site_name" content="<?php echo site_name(); ?>">
-    <meta property="og:description" content="<?php echo site_description(); ?>">
+		<?php if(is_article()): ?>
+			<meta property="og:description" content="<?php echo article_description(); ?>">
+		<?php elseif(is_homepage()): ?>
+			<meta property="og:description" content="<?php echo site_description(); ?>">
+		<?php elseif(is_page()): ?>
+			<meta property="og:description" content="<?php echo site_description(); ?>">
+		<?php endif; ?>
+    
 
     <?php if(customised()): ?>
       <!-- Custom CSS -->
