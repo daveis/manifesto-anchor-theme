@@ -38,9 +38,12 @@
 					<?php endif; ?>
 
 			<?php else: ?>
-			<div class="container">
-				<p>Yeah, I haven't actually written anything yet.</p>
-			</div>
+			<article class="no-posts-yet">
+				<div class="container">
+					<h2>No posts</h2>
+					<p>Yeah, I haven't actually written anything here yet. I should probably write something.</p>
+				</div>
+			</article>
 			<?php endif; ?>
 		</section>
 		
