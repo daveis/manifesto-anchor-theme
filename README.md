@@ -9,6 +9,7 @@ Test drive it... [here](http://dev.daveis.net/manifesto)
 - jPanelMenu drawer navigation
 - Options to display/hide Anchor `Pages` in the main navigation
 - Nice featured images for each post (requires additional setup)
+- Custom function for estimating and display "read time" for each post, à la medium.com
 - Supports post descriptions to display on `Posts` page and in article header as a teaser
 - "Tweet This" button on posts
 
