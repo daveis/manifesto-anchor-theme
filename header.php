@@ -31,7 +31,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
     <meta name="generator" content="Anchor CMS">
 
-    <meta property="og:title" content="<?php echo site_name(); ?>">
+    <meta property="og:title" content="<?php echo page_title('Page not found'); ?> - <?php echo site_name(); ?>">
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo current_url(); ?>">
     <meta property="og:image" content="<?php echo article_custom_field('featured-image', 'http://s13.postimg.org/w3p4tc5pz/article_img_default.jpg'); ?>">
