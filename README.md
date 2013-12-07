@@ -2,14 +2,14 @@ Manifesto
 =====
 
 Manifesto - A minimal, responsive theme for Anchor CMS designed for a distraction-free reading experience on any device.
-Test drive it... [here](http://dev.daveis.net/manifesto)
+Test drive it... [demo](http://dev.daveis.net/manifesto)
 
 #### Features
 - Responsive design built on a modified version of Skeleton (http://getskeleton.com) to have a percentage based grid system
 - jPanelMenu drawer navigation
 - Options to display/hide Anchor `Pages` in the main navigation
 - Nice featured images for each post (requires additional setup)
-- Custom function for estimating and display "read time" for each post, à la medium.com
+- Estimated "read time" for each post, à la medium.com
 - Supports post descriptions to display on `Posts` page and in article header as a teaser
 - "Tweet This" button on posts
 
