@@ -4,7 +4,7 @@ Manifesto
 Manifesto - A minimal, responsive theme for Anchor CMS designed for a distraction-free reading experience on any device.
 Test drive it... [demo](http://dev.daveis.net/manifesto)
 
-[Features](#features) | [Installation](#Installation) | [Setup](#Setup) | [Final Thoughts](#navigation--twitter-account) | [License & Copyright](#navigation--twitter-account)
+[Features](#features) | [Installation](#installation) | [Setup](#setup) | [Final Thoughts](#navigation--twitter-account) | [License & Copyright](#navigation--twitter-account)
 
 ### Features
 - Responsive design built on a modified version of Skeleton (http://getskeleton.com) to have a percentage based grid system
