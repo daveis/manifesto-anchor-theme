@@ -4,7 +4,7 @@ Manifesto
 Manifesto - A minimal, responsive theme for Anchor CMS designed for a distraction-free reading experience on any device.
 Test drive it... [demo](http://dev.daveis.net/manifesto)
 
-#### Features
+### Features
 - Responsive design built on a modified version of Skeleton (http://getskeleton.com) to have a percentage based grid system
 - jPanelMenu drawer navigation
 - Options to display/hide Anchor `Pages` in the main navigation
@@ -15,16 +15,16 @@ Test drive it... [demo](http://dev.daveis.net/manifesto)
 
 __* NOTE:__ I prefer to write my posts in plain HTML, so this theme uses `<?php echo article_html(); ?>` to return article content. Please use `<?php echo article_markdown(); ?>` in article.php in order to use this theme with Markdown formatted posts.
 
-## Installation
+### Installation
 1. Download the theme from Github
 2. Unzip and copy the theme folder into your `themes` directory
 3. Set **Manifesto** as the `Current Theme:` on the **Extend > Metadata** menu in Anchor's admin
 4. **Blamo!** You're done. Move along to setup customizations.
 
-## Setup
+### Setup
 A few extra customizations are required to take advantage of this themes extra features.
 
-### Featured Images and Image Credit
+#### Featured Images and Image Credit
 This theme can display one large featured image per post. Optionally, you can also setup an extra field to insert some HTML for crediting the image author. If images aren't for you then not to worry, the theme will simply load with a plain vanilla h1 title.
 
 1. Create a new Custom Field in the **Extend > Custom Fields** menu in Anchor's admin
@@ -42,7 +42,7 @@ This theme can display one large featured image per post. Optionally, you can al
 	- Label: Featured Image Credit
 4. **Swish!** Ya done good, son.
 
-### Navigation & Twitter Account
+#### Navigation & Twitter Account
 You can control which pages (not posts) are visible in the main menu, and also setup a link to your Twitter account. The Twitter variable is also used to credit you in the "Tweet This" button in your posts.
 
 1. Create a new Custom Field in the **Extend > Custom Fields** menu in Anchor's admin
@@ -60,5 +60,11 @@ You can control which pages (not posts) are visible in the main menu, and also s
 	- Value: http://twitter.com/YourTwitterUsername
 6. **That's it!** Finished.
 
-  
+### Final Thoughts
 This theme is by no means perfect. I was looking to try some BEM techniques in organizing my code with this one, and in all likelihood I fucked it up royally. If you have any questions, submit an issue or shoot me a message: dave [at] daveis [dot] net.
+
+### License & Copyright
+Free to use and modify under the MIT license.
+http://www.opensource.org/licenses/mit-license.php
+
+&copy; 2013 David Gardner

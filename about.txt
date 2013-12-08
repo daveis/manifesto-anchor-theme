@@ -2,4 +2,4 @@ Theme name:    Manifesto
 Description:   A minimal, responsive theme for Anchor CMS designed for a distraction-free reading experience on any device.
 Author name:   Dave Gardner
 Author site:   http://daveis.net
-License:       http://licence.visualidiot.com
+License:       MIT license http://www.opensource.org/licenses/mit-license.php
