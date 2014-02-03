@@ -55,7 +55,7 @@
 
 		<div class="container post-content">
 			
-			<?php echo article_html(); ?>
+			<?php echo article_markdown(); ?>
 		</div>
 		
 		<footer class="container post-footer">
