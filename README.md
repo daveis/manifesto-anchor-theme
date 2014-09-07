@@ -15,7 +15,7 @@ Test drive it... [demo](http://dev.daveis.net/manifesto)
 - Supports post descriptions to display on `Posts` page and in article header as a teaser
 - "Tweet This" button on posts
 
-__* NOTE:__ I prefer to write my posts in plain HTML, so this theme uses `<?php echo article_html(); ?>` to return article content. Please use `<?php echo article_markdown(); ?>` in article.php in order to use this theme with Markdown formatted posts.
+__* NOTE:__ Originally I was using the Anchor HTML function to return the content of a post, but this seems to be causing more confusion for people so I have gone back to Anchor's default behavior of rendering Markdown. The HTML was just my own personal preference.
 
 ### Installation
 1. Download the theme from Github
