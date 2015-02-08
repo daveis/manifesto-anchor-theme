@@ -33,7 +33,7 @@ This theme can display one large featured image per post. Optionally, you can al
 2. Fill in the form with the following:
 	- Extend: post
 	- Type: file
-	- Unique Key: featured-image
+	- Unique Key: featured_image
 	- Label: Featured Image
 	- File Types: [blank]
 3. Upload featured images when editing a post
