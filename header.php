@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="<?php echo theme_url('/css/base.css'); ?>">
 		<link rel="stylesheet" href="<?php echo theme_url('/css/skeleton-fluid.css'); ?>">
 		<link rel="stylesheet" href="<?php echo theme_url('/css/layout.css'); ?>">
-		<link href='http://fonts.googleapis.com/css?family=Montserrat:400|Ubuntu:300,300italic,700,700italic|PT+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400|Ubuntu:300,300italic,700,700italic|PT+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo rss_url(); ?>">
@@ -34,7 +34,9 @@
     <meta property="og:title" content="<?php echo page_title('Page not found'); ?> - <?php echo site_name(); ?>">
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo current_url(); ?>">
-    <meta property="og:image" content="<?php echo article_custom_field('featured-image', 'http://s13.postimg.org/w3p4tc5pz/article_img_default.jpg'); ?>">
+    <meta property="og:image" content="<?php echo article_custom_field('featured-image', 'https://s13.postimg.org/w3p4tc5pz/article_img_default.jpg>
+    	
+    </article>'); ?>">
     <meta property="og:site_name" content="<?php echo site_name(); ?>">
 		<?php if(is_article()): ?>
 			<meta property="og:description" content="<?php echo article_description(); ?>">

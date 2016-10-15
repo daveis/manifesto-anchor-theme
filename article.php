@@ -5,7 +5,7 @@
 	<article class="article-post">
 	
 		<?php if(article_custom_field('featured-image')): ?>
-		<div class="featured-image" style="background-image: url(<?php echo article_custom_field('featured-image', 'http://s13.postimg.org/w3p4tc5pz/article_img_default.jpg'); ?>);">
+		<div class="featured-image" style="background-image: url(<?php echo article_custom_field('featured-image', 'https://s13.postimg.org/w3p4tc5pz/article_img_default.jpg'); ?>);">
 			<div class="overlay"></div>
 			
 				<?php if(article_custom_field('featured-image-credit')): ?>
