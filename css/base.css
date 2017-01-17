@@ -49,6 +49,8 @@
 
 /* #Basic Styles
 ================================================== */
+	html, body { height: 100% }
+
 	body {
 		background: #f7f1f0;
 		font: 16px/28px "PT Serif", Georgia, Cambria, Times New Roman, Times, Serif;

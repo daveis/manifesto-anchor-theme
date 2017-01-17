@@ -37,6 +37,11 @@
 }
 
 .jPanelMenu-panel {
+	padding-bottom: 84px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
 	-webkit-transition: .3s ease-in-out all;
 		 -moz-transition: .3s ease-in-out all;
 			 -o-transition: .3s ease-in-out all;
@@ -221,6 +226,9 @@ input[type="search"].site-search__search-term:focus {
 .site-search :-ms-input-placeholder { color: #999; }
 
 .site-footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 	border-top: 4px solid #e77559;
 	padding: 20px 0;
 	background: #404646 url('../img/bg-noise-dark.png') repeat 0 0 scroll;
